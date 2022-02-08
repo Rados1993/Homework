@@ -1,0 +1,89 @@
+ul#prva li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-decoration: none;
+    padding-top: 2px;
+    font-size: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+table {
+    text-align: center;
+    width: 1200px;
+}
+h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+img#onama {
+    height: 200px;
+    width: 200px;
+    margin-left: 43.5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 500px;
+}
+fieldset {
+    width: 500px;
+    margin-left: 30%;
+}
+fieldset.jedan  {
+    width: 508px;
+}
+select {
+    width: 508px;
+}
+input[type="checkbox"] {
+    margin-left: 460px;
+}
+button {
+    margin-left: 460px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+body {
+    margin-top: 50px;
+}
+span {
+    color: orange;
+}
+span a:link {
+    color: green;
+} 
+span a:visited {
+    color: red;
+}
+a:hover {
+    background-color: orange;
+}
+span.grad {
+    color: orange;
+}
+span.qa {
+    color: green;
+}
+span.oboji {
+    color: orange;
+}
+span.podvuci {
+    text-decoration: underline 2px;
+    color: black;
+}

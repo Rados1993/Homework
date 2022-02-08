@@ -1,0 +1,16 @@
+legend {
+    text-align: center;
+}
+fieldset {
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+}
+label {
+    color: #777;
+}
+input[type="submit"] {
+    background-color: orange;
+    border-radius: 10px;
+    color: whitesmoke;
+}

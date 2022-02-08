@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <fieldset>
+    <legend>Informacije o kadnidatu</legend>
+    <label for="name"> Ime:</label><br>
+    <input type="text" name="name" id="name"><br>
+    <label for="prezime">Prezime:</label><br>
+    <input type="text" name="lastname" id="lastname">
+</fieldset>
+<fieldset class="jedan">
+    <legend>Informacije o kursu</legend>
+    <label for="mesto">Mesto:</label>
+                    <select>
+                    <option selected disabled>Niš</option>
+                    <option>Beograd</option>
+                    <option>Niš</option>
+                    </select> <br>
+                    <label for="kurs">Kurs:</label>
+                        <input type="radio" id="java" name="program" value="java"required>
+                        <label for="java">Javascript</label>
+                        <input type="radio" id="qa" name="program" value="qa"required>
+                        <label for="qa">QA</label>
+</fieldset>
+                <input type="checkbox" name="jedan" id="jedna" checked>
+                <label for="tri" id="tri">Želim da se prijavim na newsletter.</label><br>
+                <button>Prijavi se</button>
+</body>
+</html>

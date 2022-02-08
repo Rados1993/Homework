@@ -1,0 +1,18 @@
+   Domaci 24
+
+1) UPDATE `putovanja` SET `datum_povratka` = '2020-12-31' WHERE 'datum_povratka' = '2020-10-31';
+2) INSERT INTO `spisak_putnika` (`ime_prezime`,`broj_pasosa`,`putovanje`) VALUES ('NN',56,3);
+   INSERT INTO `destinacije` (`drzava`,`grad`) VALUES ('Spanija','Madrid');
+   INSERT INTO `putovanja` (`datum_polaska`,`datum_povratka`,`destinacija`) VALUES ('2020-12-21','2020-12-31',3);
+3) INSERT INTO `spisak_putnika` (`ime_prezime`,`broj_pasosa`,`putovanje`) VALUES ('AA','100',4);
+   INSERT INTO `destinacije` (`drzava`,`grad`) VALUES ('Portugal','Lisabon');
+   INSERT INTO `putovanja` (`datum_polaska`,`datum_povratka`,`destinacija`,`cena`) VALUES ('2020-12-15','2020-12-31',4,300);
+4) INSERT INTO `spisak_putnika` (`ime_prezime`,`broj_pasosa`,`putovanje`) VALUES (`BB`,101,5);
+   INSERT INTO `destinacije` (`drzava`,`grad`) VALUES ('Makedonija','Ohrid');
+   INSERT INTO `putovanja` (`datum_polaska`,`datum_povratka`,`destinacija`,`cena`) VALUES ('2020-12-31','2021-01-08',5,150);
+5) INSERT INTO `spisak_putnika` (`ime_prezime`,`broj_pasosa`,`putovanje`) VALUES (`CC`,102,5);
+   INSERT INTO `destinacije` (`drzava`,`grad`) VALUES ('Makedonija','Ohrid');
+   INSERT INTO `putovanja` (`datum_polaska`,`datum_povratka`,`destinacija`,`cena`) VALUES ('2020-12-31','2021-01-08',5,150);
+6) SELECT FROM `destinacije` INNER JOIN putovanja ON `destinacije`.id_destinacije = 'putovanja'.destinacija WHERE 'datum_polaska' = '2020-12-31';
+7) SELECT FROM `destinacije`  INNER JOIN putovanja ON `destinacije`.id_destinacije = 'putovanja'.destinacija WHERE 'datum_povratka' LIKE '2021-%-%';
+8) SELECT FROM `destinacije`  INNER JOIN putovanja ON `destinacije`.id_destinacije = 'putovanja'.destinacija WHERE 'cena' > 250;
